@@ -3412,7 +3412,7 @@ a.text-theme:hover,
   background-color: var(--white-color);
 }
 .vs-header .sticky-wrapper.style2 {
-  background-color: var(--title-color);
+  background-color: #fff
 }
 .vs-header .sticky-wrapper.style2 .header-icons {
   background-color: var(--title-color);
@@ -3439,7 +3439,7 @@ a.text-theme:hover,
   color: var(--title-color);
 }
 .vs-header .sticky-wrapper.style2 .header-logo::after {
-  background-color: var(--theme-color);
+  background-color:#fff;
 }
 .vs-header .sticky-wrapper.style2 .header-logo::before {
   background-color: var(--white-color);
@@ -3454,10 +3454,10 @@ a.text-theme:hover,
   display: none;
 }
 .vs-header .sticky-wrapper.style2 .sticky-active.active .menu-style2 > ul > li > a {
-  color: var(--title-color);
+  color: #000;
 }
 .vs-header .sticky-wrapper.style2 .sticky-active.active .menu-style2 > ul > li > a.active {
-  color: var(--title-color) !important;
+  color: var(--theme-color) !important;
 }
 .vs-header .sticky-wrapper.style2 .sticky-active.active .menu-style2 > ul > li > a:hover {
   color: var(--theme-color) !important;
@@ -3550,7 +3550,7 @@ a.text-theme:hover,
   bottom: 0;
   width: 100%;
   z-index: -1;
-  background-color: #54CE7B;
+  background-color: #fff;
   transform: skewX(37deg);
 }
 .vs-header .header-logo::before {
@@ -3561,7 +3561,7 @@ a.text-theme:hover,
   height: 100%;
   bottom: 0;
   width: 99999px;
-  background-color: var(--theme-color);
+  background-color: #fff;
   transform: skewX(33deg);
 }
 .vs-header.header-layout1 .header-inner {
